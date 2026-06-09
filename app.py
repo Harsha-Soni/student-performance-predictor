@@ -26,6 +26,11 @@ st.markdown("""
     font-size:3.2rem;
     font-weight:800;
     color:#4DA6FF;
+    line-height:1.4;
+    padding-top:15px;
+    padding-bottom:10px;
+    margin-bottom:0px;
+    overflow:visible;
 }
 
 .sub-title{
@@ -150,22 +155,16 @@ Streamlit
     )
 
     st.markdown(
-        "[Live Application](PASTE_YOUR_STREAMLIT_URL_HERE)"
+        "[Live Application](https://student-performance-predictor-85.streamlit.app/)"
     )
-
-
-try:
-    st.image(
-        "images/banner.jpg",
-        use_container_width=True
-    )
-except:
-    pass
-
 
 
 st.markdown(
-    '<div class="main-title">🎓 Student Performance Predictor</div>',
+    """
+    <div class="main-title">
+        🎓 Student Performance Predictor
+    </div>
+    """,
     unsafe_allow_html=True
 )
 
